@@ -1,0 +1,2 @@
+060c9d3 Wrote and saved a commandline to run QC on the gzip fastq sequence data using fastqc
+a401c5a Wrote a script to extract summary.txt from each zip file
