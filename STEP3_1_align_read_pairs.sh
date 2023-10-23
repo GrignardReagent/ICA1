@@ -1,5 +1,9 @@
+##### STEP 3 PART 1 #####
+echo -e "Welcome to STEP 3 PART 1, there is also a PART 2 to this."
+
 ##### PROCESS Step 1 #####
 # Unzip all the .gz files (-d means decompress), we will need this later
+echo -e "Unzipping all files..."
 gzip -d *.gz
 echo "All gz files decompressed and ready for processing"
 
@@ -36,6 +40,7 @@ do
 	fqfile_2="${fqname}_2.fq"
 	# Align reads to an indexed sequence using bowtie2
 	# -1 and -2 were used as parameters as this is a pair-end sequencing, so we cannot use -U Tco-…fq; -x is the genome index fasta_index, -S is the output alignment in sam format
+	echo "Alignment started... This can take a while."
 	bowtie2 --no-unal -x fasta_index -1 ${i} -2 ${fqfile_2} -S "output_${fqname}.sam"
 	echo "Alignment completed for sequence ${fqname}"
 done

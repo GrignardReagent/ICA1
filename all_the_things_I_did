@@ -1,0 +1,58 @@
+commit e22863b0da11acb40b0e17ac25a53a58e500b369
+Author: B118384-2023 <email_not_provided>
+Date:   Mon Oct 23 00:02:02 2023 +0100
+
+    STEP 6 shell script added. It generates the final results in the format of <GroupName1>_VS_<GroupName2>_fold.txt_sorted.txt.
+
+commit 9b3e0e81c35a96d0e25635a1e0dd95c14e4537c0
+Author: B118384-2023 <email_not_provided>
+Date:   Mon Oct 23 00:00:19 2023 +0100
+
+    STEP 5 shell scripts added. It generates plain txt files that gives the average of the counts per gene (i.e. expression levels) for each group.
+
+commit fa141408de6d770820bdcfc09e7a8c072168a647
+Author: B118384-2023 <email_not_provided>
+Date:   Sun Oct 22 23:58:58 2023 +0100
+
+    STEP 4 shell script added. It generates the number of reads that align to the regions of the genome that code for genes. It also groups the sequences into groups before doing everything else.
+
+commit 572c5bc1253366d97ca76542dc32d38c129cc95e
+Author: B118384-2023 <email_not_provided>
+Date:   Sun Oct 22 23:57:26 2023 +0100
+
+    STEP 3.2 shell script added. It converts the output from 3.1 to indexed BAM format with samtools.
+
+commit 742962a5404ee9623653f0cce7bdbdbb24e6b966
+Author: B118384-2023 <email_not_provided>
+Date:   Sun Oct 22 23:56:21 2023 +0100
+
+    STEP 3 shell script is add. It does the alignment using bowtie2 and outputs SAM files.
+
+commit 2ba6090e1fc4ff55cb0c35f44e9e5b7a76060f90
+Author: B118384-2023 <email_not_provided>
+Date:   Sun Oct 22 23:55:00 2023 +0100
+
+    I added STEP2_extract_summary.sh, it extracts the QC summary files and extracts the count of PASS/FAIL/WARN.
+
+commit d6a55ed0bc0709da7908c4d3c0bb9d3845dca626
+Author: B118384-2023 <email_not_provided>
+Date:   Sun Oct 22 23:53:20 2023 +0100
+
+    Add STEP1_run_fastqc.sh onto GitHub. It runs fastqc on the .gz files
+
+commit d1b0f191f48c565ea5f30f9413c9ed858afa1006
+Author: B118384-2023 <email_not_provided>
+Date:   Sun Oct 22 23:51:56 2023 +0100
+
+    I copied files from the required directories into the current one using STEP0_copy_fastq.sh
+commit cb5f9f3ed404d76a4702de4de920d9580f384346
+Author: B118384-2023 <email_not_provided>
+Date:   Mon Oct 23 02:12:16 2023 +0100
+
+    Updated STEP6 shell script
+
+commit abec64bc6038628a4d6a3781549dfa5b074ca5fd
+Author: B118384-2023 <email_not_provided>
+Date:   Mon Oct 23 00:12:45 2023 +0100
+
+    ICA1 submission

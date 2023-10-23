@@ -13,7 +13,7 @@ do
 	# Convert output.sam into a BAM alignment using samtools view
 	# -o specifies the name of the output file
 	samtools view -o ${filename}.bam ${i}
-	echo "Completed sam to bam for ${output_file}"
+	echo "Completed sam to bam for ${filename}"
 done
 
 ##### PROCESS Step 2 #####
@@ -43,3 +43,4 @@ do
         echo "Completed indexing for ${filename} using samtool index"
 done
 
+echo "STEP 3.2 completed, please proceed to STEP 4."
