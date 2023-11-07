@@ -1,3 +1,3 @@
 # ICA1
-See below
-[B118384-2023.ICA1.pdf.pdf](https://github.com/GrignardReagent/ICA1/files/13070748/B118384-2023.ICA1.pdf.pdf)
+See [Bioinformatics_BPSM_ICA1_instructions.pdf](https://github.com/GrignardReagent/ICA1/files/13277240/Bioinformatics_BPSM_ICA1_instructions.pdf) for a list of instructions given for this In-Couse Assessment
+See [Bioinformatics_BPSM_ICA1_mywork.pdf](https://github.com/GrignardReagent/ICA1/files/13277244/Bioinformatics_BPSM_ICA1_mywork.pdf) for user instructions, pipeline and detailed explanation of the codes
